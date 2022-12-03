@@ -1,0 +1,566 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimscapeMultibodyImportXML version="2.0" xmlns="urn:mathworks:SimscapeMultibody:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="" on="12/14/21||15:34:53" using="Simscape Multibody Link Version 7.0" from="SolidWorks 28.5.0"/>
+<ModelUnits mass="kilogram" length="inch"/>
+<DataUnits mass="kilogram" length="meter"/>
+<RootAssembly name="Robot PUMA 560" uid="Robot PUMA 560" version="331">
+<AssemblyFile name="Robot PUMA 560.SLDASM" type="SolidWorks Assembly"/>
+<InstanceTree>
+<Instance name="Pieza_1-1" uid="Pieza_1-1" grounded="true" entityUid="Pieza_1*:*Predeterminado">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.54659953863634159 -0.2550253832315828 0.0046782587277586218</Translation>
+</Transform>
+</Instance>
+<Instance name="Pieza_2-1" uid="Pieza_2-1" entityUid="Pieza_2*:*Predeterminado">
+<Transform>
+<Rotation>0.18794713965331386 3.7153132721378792e-14 -0.98217914490999925 6.9828250345630089e-15 -0.99999999999999989 -3.6491030181361642e-14 -0.98217914490999936 0 -0.18794713965331383</Rotation>
+<Translation>-0.54659953863636479 0.36854461676841854 0.0046782587277586218</Translation>
+</Transform>
+</Instance>
+<Instance name="Pieza_3-1" uid="Pieza_3-1" entityUid="Pieza_3*:*Predeterminado">
+<Transform>
+<Rotation>0.18794713965331408 -0.47496677668822573 0.85969903672072046 6.9519043299770544e-15 0.87529758820067227 0.48358466899818719 -0.98217914490999947 -0.090888355318397993 0.16450967804776406</Rotation>
+<Translation>-0.57810699712784452 0.36854461676840911 0.16933077058047122</Translation>
+</Transform>
+</Instance>
+<Instance name="puma_gripper_arm-5" uid="puma_gripper_arm-5" entityUid="puma_gripper_arm*:*Default">
+<Transform>
+<Rotation>0.72418008107604126 -0.19562961600069648 0.66128077509944161 0.67614491018130962 0.012849954606090369 -0.73665659509878156 0.13561441888164713 0.98059366304807505 0.141579650308057</Rotation>
+<Translation>0.1134913230662272 0.18554365870293593 0.26404552838985462</Translation>
+</Transform>
+</Instance>
+<Instance name="Pieza_4-1" uid="Pieza_4-1" entityUid="Pieza_4*:*Predeterminado">
+<Transform>
+<Rotation>-0.18794713965331436 -0.6565447708012413 -0.73049629474055733 -7.2606851087009261e-15 0.7437505657967276 -0.66845725059800754 0.98217914490999936 -0.12563462823040894 -0.13978579145703385</Rotation>
+<Translation>-0.19256738103025089 0.577356476841828 0.16552399871935447</Translation>
+</Transform>
+</Instance>
+<Instance name="puma_gripper_base-1" uid="puma_gripper_base-1" entityUid="puma_gripper_base*:*Default">
+<Transform>
+<Rotation>-0.72418008107604159 0.19562961600069642 0.66128077509944139 -0.67614491018130951 -0.012849954606090331 -0.73665659509878179 -0.13561441888164708 -0.98059366304807494 0.14157965030805689</Rotation>
+<Translation>0.11587085761592876 0.22043917146845338 0.26406296851400668</Translation>
+</Transform>
+</Instance>
+<Instance name="Pieza_5-1" uid="Pieza_5-1" entityUid="Pieza_5*:*Predeterminado">
+<Transform>
+<Rotation>-0.26784960795687468 -0.65654477080124096 0.70512803904744481 -0.38558985370047411 0.74375056579672805 0.54603622645415562 -0.88293660714719224 -0.12563462823040955 -0.45237029958741909</Rotation>
+<Translation>0.044578707615132787 0.30059945379944147 0.24969492565187879</Translation>
+</Transform>
+</Instance>
+<Instance name="Pieza_6-1" uid="Pieza_6-1" entityUid="Pieza_6*:*Predeterminado">
+<Transform>
+<Rotation>-0.70512803904744448 -0.25593394662097368 0.66128077509944139 -0.54603622645415539 -0.3989755635338787 -0.73665659509878167 0.45237029958741964 -0.88052047941534928 0.14157965030805719</Rotation>
+<Translation>0.083957447409623895 0.25599021874792754 0.25723033459013783</Translation>
+</Transform>
+</Instance>
+<Instance name="puma_gripper_arm-4" uid="puma_gripper_arm-4" entityUid="puma_gripper_arm*:*Default">
+<Transform>
+<Rotation>-0.72418008107604204 0.19562961600069673 0.66128077509944083 -0.67614491018130918 -0.012849954606090867 -0.73665659509878212 -0.13561441888164702 -0.98059366304807494 0.14157965030805739</Rotation>
+<Translation>0.1501638023719179 0.21978363695451744 0.27091304256202131</Translation>
+</Transform>
+</Instance>
+<Instance name="pen-1" uid="pen-1" entityUid="pen*:*默认">
+<Transform>
+<Rotation>0.19562961600069634 0.72418008107604215 0.66128077509944072 -0.012849954606091007 0.67614491018130873 -0.73665659509878223 -0.98059366304807505 0.13561441888164677 0.14157965030805728</Rotation>
+<Translation>0.1460834536686659 0.18678280495158711 0.27053145957727975</Translation>
+</Transform>
+</Instance>
+</InstanceTree>
+<Constraints>
+<Coincident name="Coincidente1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Pieza_1-1</Uid>
+</InstancePath>
+<Position>-2.042810365310288e-14 0.54864000000000135 0</Position>
+<Axis>-3.7153132713834051e-14 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Pieza_2-1</Uid>
+</InstancePath>
+<Position>0 0.074929999999999997 -1.1102230246251565e-16</Position>
+<Axis>0 0.99999999999999989 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincidente2">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Pieza_1-1</Uid>
+</InstancePath>
+<Position>-2.042810365310288e-14 0.54864000000000135 0</Position>
+<Axis>-3.7153132713834051e-14 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Pieza_2-1</Uid>
+</InstancePath>
+<Position>0 0.074929999999999997 -1.1102230246251565e-16</Position>
+<Axis>0 0.99999999999999989 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincidente3">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Pieza_2-1</Uid>
+</InstancePath>
+<Position>-0.14223999999999998 0 -1.1102230246251565e-16</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Pieza_3-1</Uid>
+</InstancePath>
+<Position>0.025399999999999978 -0.031737139026684846 -0.039623652003159759</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concéntrica1">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Pieza_2-1</Uid>
+</InstancePath>
+<Position>-0.14223999999999998 0 -1.1102230246251565e-16</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Pieza_3-1</Uid>
+</InstancePath>
+<Position>0.025399999999999978 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincidente4">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Pieza_3-1</Uid>
+</InstancePath>
+<Position>0 0 0.43179999999999991</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Pieza_4-1</Uid>
+</InstancePath>
+<Position>0.076200000000000018 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concéntrica2">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Pieza_3-1</Uid>
+</InstancePath>
+<Position>0 0 0.43179999999999991</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Pieza_4-1</Uid>
+</InstancePath>
+<Position>0.076200000000000018 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincidente5">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Pieza_4-1</Uid>
+</InstancePath>
+<Position>0.076199999999999962 -0.35179000001014593 0.040639999999999898</Position>
+<Axis>0 -1.0000000000000002 -1.5265566588595902e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Pieza_5-1</Uid>
+</InstancePath>
+<Position>0.038100000000000023 0.020319999994927007 0.040639999999999996</Position>
+<Axis>0 1.0000000000000002 -2.2204460492503131e-16</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincidente6">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Pieza_4-1</Uid>
+</InstancePath>
+<Position>0.038099999999999995 -0.35179000001014582 0</Position>
+<Axis>0 -1.0000000000000002 -1.5265566588595902e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Pieza_5-1</Uid>
+</InstancePath>
+<Position>0 0.020319999994927035 0</Position>
+<Axis>0 1.0000000000000002 -2.2204460492503131e-16</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concéntrica3">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Pieza_5-1</Uid>
+</InstancePath>
+<Position>0 -0.059978757802660876 -0.040639999999999982</Position>
+<Axis>0 -2.2204460492503131e-16 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Pieza_6-1</Uid>
+</InstancePath>
+<Position>0.034290000000000001 0 0</Position>
+<Axis>-1 1.6653345369377348e-16 -1.1102230246251565e-16</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincidente7">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Pieza_5-1</Uid>
+</InstancePath>
+<Position>0 -0.059978757802660876 0.012700000000000031</Position>
+<Axis>0 2.2204460492503131e-16 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Pieza_6-1</Uid>
+</InstancePath>
+<Position>-0.012699999999999975 0 0</Position>
+<Axis>-1 1.6653345369377348e-16 -1.1102230246251565e-16</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="重合4">
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>Pieza_6-1</Uid>
+</InstancePath>
+<Position>0 0 0.025399999999999992</Position>
+<Axis>0 2.0816681711721685e-16 1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>puma_gripper_base-1</Uid>
+</InstancePath>
+<Position>0 0 0.0050799999999999873</Position>
+<Axis>-1.1102230246251565e-16 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="重合5">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Pieza_6-1</Uid>
+</InstancePath>
+<Position>0 0 0.053339999999999992</Position>
+<Axis>0 2.0816681711721685e-16 1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>puma_gripper_base-1</Uid>
+</InstancePath>
+<Position>0 0 0.0050799999999999873</Position>
+<Axis>-1.1102230246251565e-16 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="重合6">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>puma_gripper_base-1</Uid>
+</InstancePath>
+<Position>-0.050800000000000012 0 0.017780000000000011</Position>
+<Axis>0 -6.6613381477509392e-16 1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>puma_gripper_arm-4</Uid>
+</InstancePath>
+<Position>0.025400000000000089 0 -0.0063500000000000292</Position>
+<Axis>-1.0408340855860843e-16 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="同心1">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>puma_gripper_base-1</Uid>
+</InstancePath>
+<Position>-0.050800000000000012 -0.019049999999999984 0.024129999999999999</Position>
+<Axis>1 0 1.1102230246251565e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>puma_gripper_arm-4</Uid>
+</InstancePath>
+<Position>0.025400000000000034 -0.019050000000000011 0</Position>
+<Axis>-1.0000000000000002 0 -1.0408340855860843e-16</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="重合8">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>puma_gripper_base-1</Uid>
+</InstancePath>
+<Position>-0.050800000000000012 0 0.017780000000000011</Position>
+<Axis>0 -6.6613381477509392e-16 1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>puma_gripper_arm-5</Uid>
+</InstancePath>
+<Position>0.02539999999999995 0 -0.0063500000000000015</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="同心2">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>puma_gripper_base-1</Uid>
+</InstancePath>
+<Position>-0.050800000000000012 0.019049999999999956 0.024130000000000054</Position>
+<Axis>1 0 1.1102230246251565e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>puma_gripper_arm-5</Uid>
+</InstancePath>
+<Position>0.025400000000000006 -0.019050000000000011 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Distance name="距离1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>puma_gripper_arm-4</Uid>
+</InstancePath>
+<Position>0 0 0.0063179999999999764</Position>
+<Axis>1.0408340855860843e-16 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>pen-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Distance>
+<Coincident name="重合10">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>puma_gripper_base-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>1 0 1.1102230246251565e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>pen-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0.99999999999999989 1.2490009027033011e-16</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="重合11">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>puma_gripper_base-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>pen-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Tangent name="相切1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>puma_gripper_arm-5</Uid>
+</InstancePath>
+<Position>0.015159999999999979 -0.019050000000000039 0.046449999999999998</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>pen-1</Uid>
+</InstancePath>
+<Position>0 0 0.076200000000000018</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Tangent>
+<Tangent name="相切2">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>puma_gripper_arm-4</Uid>
+</InstancePath>
+<Position>0.015160000000000062 -0.019050000000000067 0.046449999999999977</Position>
+<Axis>1.0000000000000002 0 1.0408340855860843e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>pen-1</Uid>
+</InstancePath>
+<Position>0 0 0.076200000000000018</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Tangent>
+</Constraints>
+</RootAssembly>
+<Assemblies>
+</Assemblies>
+<Parts>
+<Part name="Pieza_1" uid="Pieza_1*:*Predeterminado" version="339">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="Pieza_1.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>15.786733475327303</Mass>
+<CenterOfMass>-9.5398850797471681e-11 0.19251642609477715 -0.021961712230401713</CenterOfMass>
+<Inertia>0.55024234059942578 0.16071279349366241 0.50423634005111362 -0.02216234644290949 2.8629734957361978e-11 -1.6743418938497106e-10</Inertia>
+</MassProperties>
+<GeometryFile name="Pieza_1_Predeterminado_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="0.94999999999999996" g="0.94999999999999996" b="0.94999999999999996" a="1"/>
+<Specular r="0.94999999999999996" g="0.94999999999999996" b="0.94999999999999996" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.20000000000000001</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Pieza_2" uid="Pieza_2*:*Predeterminado" version="193">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="Pieza_2.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>4.4341275613540514</Mass>
+<CenterOfMass>-0.022504693513443152 0.002791443093080965 -2.2004532437508497e-10</CenterOfMass>
+<Inertia>0.013316183963518205 0.027164178265390145 0.027327742545387258 -7.7933047034380557e-09 1.0049536086135991e-08 -0.00027853998862862548</Inertia>
+</MassProperties>
+<GeometryFile name="Pieza_2_Predeterminado_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="0.94999999999999996" g="0.94999999999999996" b="0.94999999999999996" a="1"/>
+<Specular r="0.94999999999999996" g="0.94999999999999996" b="0.94999999999999996" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.20000000000000001</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Pieza_3" uid="Pieza_3*:*Predeterminado" version="228">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="Pieza_3.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>16.846609042557301</Mass>
+<CenterOfMass>-0.047640397525325853 -4.6775426817776542e-05 0.082736524558405009</CenterOfMass>
+<Inertia>0.65975811150988972 0.59657336974101738 0.097229720239975614 -7.8859060227080249e-06 0.0043474607629717362 4.8382913024663041e-05</Inertia>
+</MassProperties>
+<GeometryFile name="Pieza_3_Predeterminado_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Pieza_4" uid="Pieza_4*:*Predeterminado" version="177">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="Pieza_4.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>4.6025125755022254</Mass>
+<CenterOfMass>0.038101562286216153 -0.088774177762268619 -1.1787958055212403e-06</CenterOfMass>
+<Inertia>0.087354595335496596 0.009191629183916538 0.082615268035401299 -4.8370451018356969e-07 3.6529044580901476e-07 -2.2739451331583448e-06</Inertia>
+</MassProperties>
+<GeometryFile name="Pieza_4_Predeterminado_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="0.94999999999999996" g="0.94999999999999996" b="0.94999999999999996" a="1"/>
+<Specular r="0.94999999999999996" g="0.94999999999999996" b="0.94999999999999996" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.20000000000000001</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Pieza_5" uid="Pieza_5*:*Predeterminado" version="146">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="Pieza_5.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.47079044701252137</Mass>
+<CenterOfMass>0 -0.027569712250984719 0</CenterOfMass>
+<Inertia>0.00077288609433121143 0.00046683449961441094 0.00073771865596839099 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Pieza_5_Predeterminado_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.25098039215686274" g="0.25098039215686274" b="0.25098039215686274" a="1"/>
+<Diffuse r="0.1756862745098039" g="0.1756862745098039" b="0.1756862745098039" a="1"/>
+<Specular r="0.050196078431372554" g="0.050196078431372554" b="0.050196078431372554" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.20000000000000001</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Pieza_6" uid="Pieza_6*:*Predeterminado" version="142">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="Pieza_6.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.077406461699050771</Mass>
+<CenterOfMass>0 -3.9262475682151734e-10 0.010974136933452547</CenterOfMass>
+<Inertia>4.5413533524416649e-05 4.3031912182785248e-05 1.6966265241748507e-05 -1.1303411429472825e-12 0 1.2064885837718843e-11</Inertia>
+</MassProperties>
+<GeometryFile name="Pieza_6_Predeterminado_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="pen" uid="pen*:*默认" version="113">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="pen.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.024711110340626775</Mass>
+<CenterOfMass>0 0 0.038100000000000009</CenterOfMass>
+<Inertia>1.259466975841343e-05 1.259466975841343e-05 1.2754095957887013e-06 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="pen_默认_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="puma_gripper_arm" uid="puma_gripper_arm*:*Default" version="307">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="puma_gripper_arm.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.078005862839297294</Mass>
+<CenterOfMass>0.011298410347702261 -3.7013041976584053e-07 0.014053896718749058</CenterOfMass>
+<Inertia>2.9894150058512408e-05 2.1911008251151431e-05 1.2865049661362855e-05 9.1158496475244103e-10 1.3374157860305448e-06 -3.1357196815815053e-11</Inertia>
+</MassProperties>
+<GeometryFile name="puma_gripper_arm_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.19215686274509802" g="0.20392156862745098" b="0.20392156862745098" a="1"/>
+<Diffuse r="0.19215686274509802" g="0.20392156862745098" b="0.20392156862745098" a="1"/>
+<Specular r="0.19215686274509802" g="0.20392156862745098" b="0.20392156862745098" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="puma_gripper_base" uid="puma_gripper_base*:*Default" version="306">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="puma_gripper_base.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.36965645274765935</Mass>
+<CenterOfMass>0 0 0.012294102165827551</CenterOfMass>
+<Inertia>0.00017737017655144685 0.00035206542371642315 0.00048554363454247961 0 0 -7.9703461588938477e-11</Inertia>
+</MassProperties>
+<GeometryFile name="puma_gripper_base_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.59999999999999998" g="0.59999999999999998" b="0.59999999999999998" a="1"/>
+<Diffuse r="0.59999999999999998" g="0.59999999999999998" b="0.59999999999999998" a="1"/>
+<Specular r="0.56999999999999995" g="0.56999999999999995" b="0.56999999999999995" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+</Parts>
+</SimscapeMultibodyImportXML>
